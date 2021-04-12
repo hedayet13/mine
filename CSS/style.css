@@ -80,7 +80,9 @@ section{
     font-weight: 400;
     font-size: 12px;
 }
-
+.vid{
+    width: 550px;
+}
 
 @media screen and (max-width:640px){
     h4{
@@ -116,5 +118,9 @@ section{
          width: 96%;  }
     .graph{
         margin-left: 120px;
+    
+    }
+    .vid{
+        width: 450px;
     }
 }
