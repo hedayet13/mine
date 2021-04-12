@@ -77,6 +77,8 @@ section{
     width: 70%;
     /* margin-right: 10%; */
     overflow-x: auto;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 
