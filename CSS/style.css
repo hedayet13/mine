@@ -114,4 +114,7 @@ section{
     }
     .tableDiv{
          width: 96%;  }
+    .graph{
+        margin-left: 120px;
+    }
 }
