@@ -134,4 +134,8 @@ section{
     .vid{
         width: 450px;
     }
+    .footSection h4{
+        font-size: 12px;
+        letter-spacing: normal;
+    }
 }
