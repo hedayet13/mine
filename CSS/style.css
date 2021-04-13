@@ -83,6 +83,17 @@ section{
 .vid{
     width: 550px;
 }
+.footSection{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    padding-bottom:.5%;
+    padding-top: .5%;
+    font-size: 13px;
+}
+.footSection h4:hover{
+    color:rgb(61, 173, 98);
+}
 
 @media screen and (max-width:640px){
     h4{
