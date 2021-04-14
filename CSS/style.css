@@ -90,7 +90,7 @@ section{
     font-size: 12px;
 }
 .vid{
-    width: 550px;
+    width: 50%;
 }
 .footSection{
     background-color: black;
@@ -147,10 +147,16 @@ section{
         width: 70%;
     }
     .graph{
-        margin: 10%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
         overflow-x: auto;
     }
     .espDiv{
         display: block;
+    }
+    .vid{
+        width: 400px;
     }
 }
