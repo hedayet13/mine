@@ -148,6 +148,7 @@ section{
     }
     .graph{
         margin: 10%;
+        overflow-x: auto;
     }
     .espDiv{
         display: block;
