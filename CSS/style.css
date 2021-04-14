@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 html,body{
-    padding: 0;
+    padding: 0px;
     scroll-behavior: smooth;
     height: 100%;
-    margin: 0;
+    margin: 0px;
     font-family: 'Roboto';
     margin-bottom: 5%;
     
@@ -63,6 +63,12 @@ section{
 }p{
     margin: 0px;
 }
+.espDiv{
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
 
 ::-webkit-scrollbar{
     width: 10px;    
@@ -71,6 +77,9 @@ section{
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(rgb(214, 80, 70),rgba(247, 72, 72, 0.658));
     border-radius: 20px;
+}
+.graph{
+    /* width: 50%; */
 }
 
 .tableDiv{
@@ -94,7 +103,6 @@ section{
 .footSection h4:hover{
     color:rgb(61, 173, 98);
 }
-
 @media screen and (max-width:640px){
     h4{
         margin-left: 2%;
@@ -127,15 +135,21 @@ section{
     }
     .tableDiv{
          width: 96%;  }
-    .graph{
-        margin-left: 120px;
     
-    }
     .vid{
         width: 450px;
     }
     .footSection h4{
         font-size: 12px;
         letter-spacing: normal;
+    }
+    .espImg{
+        width: 70%;
+    }
+    .graph{
+        margin: 10%;
+    }
+    .espDiv{
+        display: block;
     }
 }
