@@ -135,10 +135,6 @@ section{
     }
     .tableDiv{
          width: 96%;  }
-    
-    .vid{
-        width: 450px;
-    }
     .footSection h4{
         font-size: 12px;
         letter-spacing: normal;
@@ -157,6 +153,6 @@ section{
         display: block;
     }
     .vid{
-        width: 400px;
+        width: 340px;
     }
 }
