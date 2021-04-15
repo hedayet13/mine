@@ -128,8 +128,7 @@
                         <img src="images/image2.jpg" alt="" width="30%" style="padding-right: 2%;" class="espImg">
                         
                         <div id="top_x_div" class="graph"></div>
-
-                
+                        <!-- <iframe src='//charts.hohli.com/embed.html?created=1618503977342#w=440&h=320&d={"containerId":"chart","dataTable":{"cols":[{"label":"A","type":"string","p":{}},{"label":"Average","type":"number"},{"label":"S.D.","type":"number"}],"rows":[{"c":[{"v":"0-8 feet"},{"v":425.23},{"v":176.4997}]},{"c":[{"v":"8-16feet"},{"v":593.03},{"v":415.9217}]},{"c":[{"v":"16-20feet"},{"v":906.8},{"v":743.87}]},{"c":[{"v":"20-24feet"},{"v":1556.35},{"v":1306.12}]},{"c":[{"v":"25+ft (antenna)"},{"v":389.27},{"v":684.5}]}]},"options":{"hAxis":{"useFormatFromData":true,"viewWindow":{"max":null,"min":null},"minValue":null,"maxValue":null,"title":"ESP-32 CAM Distance From Router(ft)"},"legacyScatterChartLabels":true,"legend":"top","legendTextStyle":{"color":"#222","fontSize":12,"italic":false},"titleTextStyle":{"color":"#000","fontSize":12,"bold":true},"vAxes":[{"title":"HTTP POST Image AverageTime (ms)","minValue":null,"maxValue":null,"viewWindow":{"max":null,"min":null},"useFormatFromData":true,"logScale":false,"gridlines":{"count":"5"},"minorGridlines":{"count":"0"}},{"viewWindow":{"max":null,"min":null},"minValue":null,"maxValue":null,"useFormatFromData":true,"logScale":false}],"type":"line","booleanRole":"certainty","series":[{"type":"bars","errorBars":{"errorType":"none"},"hasAnnotations":true,"color":"#134f5c"}],"width":440,"height":320,"isStacked":false,"domainAxis":{"direction":1},"interpolateNulls":false,"curveType":"function","title":""},"state":{},"view":{"columns":[0,1,{"sourceColumn":2,"properties":{"role":"annotation"},"label":"S.D."}],"rows":null},"isDefaultVisualization":false,"chartType":"ComboChart"}' frameborder='0' width='450' height='330'></iframe> -->
                 </div>
                 
                 <pre class="prettyprint divFlow">
@@ -963,8 +962,8 @@
 
                 </div>
 
-
-                <a href="https://github.com/hedayet13/ICU-Monitoring-Device"><h2>Residual Codes</h2></a>
+<a href="https://github.com/hedayet13/ICU-Monitoring-Device"><h2>Residual Codes</h2></a>
+                
               
                 <!-- <a href="https://github.com/hedayet13/ICU-Monitoring-Device/tree/main/Server">
                         <h3>Raspberry pi server</h3>
@@ -1250,7 +1249,7 @@
                 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         </section>
         <section class="footSection">
-          <h4>Team Members: Hedayetul Islam, Safayat Siddiqui, Nasrin Aktar, Arif Iftakher. <br>
+          <h4>Team Members: Hedayetul Islam, Safayat Siddiqui, Nasrin Akter, Arif Iftakher. <br>
             Courtesy: Chittagong General Hospital, University of Chittagong, Buet Club Chittagong and Stellar.</h4>
 
         </section>
@@ -1309,7 +1308,7 @@
 
                 function drawStuff() {
                         var data = new google.visualization.arrayToDataTable([
-                                ['Distance(ft)', 'time(ms)'],
+                                ['Distance(ft)', 'Time(ms)'],
                                 ["0-8ft", 425.23],
                                 ["8-16ft", 593.03],
                                 ["16-20ft", 906.8],
@@ -1319,8 +1318,9 @@
                         );
 
                         var options = {
-                                height: '500px',
+                              
                                 width: '100%',
+                                height: 260,
                                 legend: { position: 'none' },
                                 chart: {
           /* 
@@ -1349,3 +1349,5 @@
 </body>
 
 </html>
+
+
